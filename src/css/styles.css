@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.corporatefinanceinstitute.com/assets/currency-1024x682.jpeg')
+}
+
+h1 {
+  text-align: center;
+  /* background-color: black; */
+  color: #e74c3c;
+}
+
+h4 {
+  padding: 50px;
+  text-align: center;
+  color: #CCCCCC;
+}
+
+h5 {
+  text-align: center; 
+}
+
+input {
+  background-color: white;
+}
+
+.container {
+  border: 5px solid #e74c3c;
+  padding: 100px;
+}
+
+.button {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#enter-currency {
+  text-align: center;
+}
