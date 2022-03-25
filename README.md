@@ -43,6 +43,7 @@ API Setup
 - Create a .env file in the root directory of your project and store the API key as such: API_KEY={YOUR-API-KEY-HERE}
 - Add `.env` to your `.gitignore` file and commit the `.gitignore` file.
 - When referencing your API key, use this syntax: `https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/USD/GBP/10` as an example.
+- Reference the dashboard to ensure you do not exceed your alotted number of monthly free API calls. 
 
 ## Known Bugs
 
