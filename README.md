@@ -12,7 +12,7 @@
 
 ## Description
 
-The Currency Exchanger accepts three user inputs - base currency, target currency, and base currency value and exchanges the base currency to the target currency value. The base currency is the starting currency we want to convert into the target currency. The amount is the amount of base currency we want to exchange. After entering three valid inputs, the values are entered as parameters into the static method getExchangeRate. The response from getExchangeRate is an object from the https://v6.exchangerate-api.com/v6/YOUR-KEY-HERE/pair/USD/GBP/10 GET call from https://www.exchangerate-api.com/. This response is then parsed and output to the DOM in the showExchangeRate function. The properties utilized from the object yielded from this API call are conversion_rate and conversion_result.
+The Currency Exchanger accepts three user inputs - base currency, target currency, and base currency value and exchanges the base currency to the target currency value. The base currency is the starting currency we want to convert into the target currency. The amount is the amount of base currency we want to exchange. After entering three valid inputs, the values are entered as parameters into the static method getExchangeRate. The response from getExchangeRate is an object from the GET call https://v6.exchangerate-api.com/v6/YOUR-KEY-HERE/pair/USD/GBP/10, from https://www.exchangerate-api.com/. This response is then parsed and output to the DOM in the showExchangeRate function. The properties utilized from the object yielded from this API call are `conversion_rate` and `conversion_result`.
 
 ## Tests
 
