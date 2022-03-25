@@ -49,6 +49,7 @@ label {
 
 .showExchangeRate {
   margin: 50px;
+  text-align: center;
 }
 
 #enter-currency {
