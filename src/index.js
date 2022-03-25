@@ -17,9 +17,7 @@ function showExchangeRate(response) {
 $(document).ready(function () {
   $("#exchangeRate").click(function () {
     let base = $("#base").val();
-    console.log(base);
     let target = $("#target").val();
-    console.log(target);
     let amount = $("#amount").val();
     if (amount <= 0) {
       return $(".showExchangeRate").text(
@@ -27,7 +25,7 @@ $(document).ready(function () {
       );
     } else if (base === null || target === null) {
       return $(".showExchangeRate").text(
-        `Please ensure both base and target currency are selected`
+        `Please ensure a valid base and target currency are selected`
       );
     }
     CurrencyService.getExchangeRate(base, target, amount).then(function (

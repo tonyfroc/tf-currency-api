@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Currency Exchanger</title>
   </head>
   <body>
     <html lang="en-US">
-      <head>
-        <title>Currency Exchange</title>
-      </head>
       <body>
         <div class="container">
           <h1>Convert Currencies From Across the Globe!</h1>
           <form id="currencyInputs">
-            <label for="base">Enter a base currency:</label>
+            <label for="base"
+              >Please select a base currency from the drop-down menu
+              below:</label
+            >
             <select class="form-control" id="base">
               <option disabled selected value>
-                -- Please Select a Base Currency --
+                -- Select a Base Currency --
               </option>
               <option value="USD">United States Dollar</option>
               <option value="EUR">Euro</option>
@@ -185,10 +185,13 @@
               <option value="ZMW">Zambian Kwacha</option>
               <option value="ZWL">Zimbabwean Dollar</option>
             </select>
-            <label for="target">Enter a target currency:</label>
+            <label for="target"
+              >Please select a target currency from the drop-down menu
+              below:</label
+            >
             <select class="form-control" id="target">
               <option disabled selected value>
-                -- Please Select a Target Currency --
+                -- Select a Target Currency --
               </option>
               <option value="USD">United States</option>
               <option value="EUR">Euro</option>
